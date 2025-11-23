@@ -1,8 +1,8 @@
-PROJECT TITLE:-
+# PROJECT TITLE:-
 
 SmartInvest: Stock Interest & Savings Calculator
 
-Overview of the Project :-
+# Overview of the Project :-
 
 A Python-based console program called SmartInvest assists users in figuring out their investment returns.
 There are two modes that it supports:
@@ -15,7 +15,7 @@ Additionally, depending on the user's preference, the program computes simple in
 
 In order to guarantee that only users who are older than 17 can utilise the investment calculator, it also incorporates age validation.
 
- Features:-
+ # Features:-
 
  Validation of age (18+ required)
 
@@ -23,7 +23,7 @@ In order to guarantee that only users who are older than 17 can utilise the inve
 
 Personalised savings calculator
 
-Calculator for stock-based investments:-
+# Calculator for stock-based investments:-
 
 -> 20 stocks with predetermined interest and return rates
 
@@ -66,20 +66,20 @@ Amount:
 Preference for interests:
 Stoc0k selection (if stock mode is being used)
 
-Instructions for Testing :-
+# Instructions for Testing :-
 
 Test the following scenarios to make sure everything functions properly:
-1. Test of Age Restrictions
+# 1. Test of Age Restrictions
 
-If your age is less than 18, the program should prevent you from accessing it.
+If your age is s than 18, the program should prevent you from accessing it.
 
 Enter 18 years of age or older → The program should proceed.
- I 2. Test of Mode Selection
+ I# 2. Test of Mode Selection
 
 The custom investment calculator should open when you enter 1.
 The stock-based calculator should open when you enter 2.
 
-3. Easy Interest Test
+# 3. Easy Interest Test
 
 Input
 Amount: $10,000
@@ -88,19 +88,19 @@ Three years
 Select SI → The program should compute correctly:
 SI is equal to (P × R × T)/100.
 
-4. Test of Compound Interest
+# 4. Test of Compound Interest
 
 Select CI and confirm:
 
 CI is equal to P × (1 + R/100)^T.
 
-5. Test of Stock Selection
+# 5. Test of Stock Selection
 
 Choose a stock number, such as "3" (Nestle India).
 
 Verify that the program is using the appropriate interest value from the tuple.
 
-6. Test for Invalid Input
+# 6. Test for Invalid Input
 
 Try: Non-number inputs
 Invalid mode :
