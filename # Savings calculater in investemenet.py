@@ -1,4 +1,4 @@
-# Savings calculater in investemenet
+# SAVINGS AND INTEREST CALCULATOR
 print ("Please enter your Name , Age , Amount ,interest rate ,Time period of investement")
 name = input("Enter your name :-")
 age = int(input("enter your age:-"))
@@ -55,4 +55,5 @@ if age >17:
     else:
         print("try again !")
 else :
+
     print ("Sorry!! Required age not reached ,try again . ")
