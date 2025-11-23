@@ -1,4 +1,4 @@
-#1. Problem Statement:-
+# 1 . Problem Statement:-
 
 The program's goal is to assist users in estimating possible investment returns. It enables users to either:
 
@@ -8,7 +8,7 @@ Determine returns using a predetermined list of stocks and the interest rates th
 
 Both simple interest and compound interest computations are supported by the program. Additionally, it determines if the user is at least eighteen years old to make the investment.
 
-#2. Scope of the Project:-
+# 2. Scope of the Project:-
 
 The scope consists of:
 
@@ -32,7 +32,7 @@ Interest rate mode based on stocks
 
 Verifying the user's age (must be older than 17).
 
-#3. Target Users:-
+# 3. Target Users:-
 
 The application is intended for:
 
@@ -44,7 +44,7 @@ Anyone looking for a quick comparison between compound and simple interest?
 
 users who want to investigate projected returns using a set list of stocks.
 
-#4. High-Level Features:-
+# 4. High-Level Features:-
 
 * Module for User Input
 
